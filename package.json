@@ -1,0 +1,29 @@
+{
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ex1": "nodemon example1/server.js",
+    "ex2": "nodemon example2/server.js",
+    "ex3": "nodemon example3/server.js",
+    "ex4": "nodemon example4/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "1.3.6",
+    "apollo-server-module-graphiql": "1.3.4",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-subscriptions": "^0.5.8",
+    "graphql-tools": "^3.0.2",
+    "subscriptions-transport-ws": "^0.9.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
